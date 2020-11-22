@@ -1,0 +1,31 @@
+Test 1
+
+1.	A the main function
+2.	B fractional numbers
+3.	C all arrays are structs
+4.	D a way to group related variables together
+5.	C Cat c;]
+6.	B
+7.	A x =+ 2
+8.	D Ends current loop
+9.	A
+10.	B
+
+Test 2
+1.	Int Variable = 0;
+2.	Int Variable[4];
+3.	Struct cake
+{
+	String Flour;
+	String Eggs;
+	String Sugar
+};
+4.	Cake victoria{ "yes", "yes", "yes" };
+5.	Cake madeira[3]
+6.	Struct cakeShop
+{
+	string cakeName[3] {“MADEIRA”, “VICTORIA”, “BATTENBURG”};
+	float price[3] {1.99, 2.99,3.99};
+bool glutenFree[3] {false, true, false);
+}
+7.	cakeShop shop;
