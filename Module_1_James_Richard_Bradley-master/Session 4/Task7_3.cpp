@@ -29,26 +29,26 @@ int main()
 			cout << "      8=8===========================8=8      " << endl;		// FRAME SIZES (in characters)
 			cout << "       |                             |       " << endl;		// Total Width: 45, Outer Border: 1, Inner Border: 1
 			cout << "       |         WELCOME  TO         |       " << endl;
-			cout << "       |";														// Opening of frame
-			int position = 12 - (size(playerNAME) / 2);								// Calculates values for centering name
-			for (int i = 0; i <= position; i++)							// Generates spaces before name
+			cout << "       |";								// Opening of frame
+			int position = 12 - (size(playerNAME) / 2);					// Calculates values for centering name
+			for (int i = 0; i <= position; i++)						// Generates spaces before name
 			{
 				cout << " ";
 			}
-			cout << playerNAME << "'s";												// Adds "'s" to a name i.e. James's
-			if (size(playerNAME) % 2 == 0)								// If playername contains odd number of characters, adds another single space
+			cout << playerNAME << "'s";							// Adds "'s" to a name i.e. James's
+			if (size(playerNAME) % 2 == 0)							// If playername contains odd number of characters, adds another single space
 			{
 				cout << " ";
 			}
-			for (int i = 0; i <= position; i++)							// Generates spaces after the name
+			for (int i = 0; i <= position; i++)						// Generates spaces after the name
 			{
 				cout << " ";
 			}
-			cout << "|" << endl;													// Closing of frame
+			cout << "|" << endl;								// Closing of frame
 			cout << "       |       BIZARRE  DAY!!!       |       " << endl;
 			cout << "       |                             |       " << endl;
 			cout << "      8=8===========================8=8      " << endl;
-			cout << "                  o--o0o--o                  " << endl;					// End of "Graphic" output
+			cout << "                  o--o0o--o                  " << endl;		// End of "Graphic" output
 			cout << endl;
 			cout << endl;
 
@@ -64,7 +64,8 @@ int main()
 				{
 					cout << endl;
 					cout << endl;
-					cout << "                  o--o0o--o                  " << endl;						cout << "      8=8===========================8=8      " << endl;
+					cout << "                  o--o0o--o                  " << endl;
+					cout << "      8=8===========================8=8      " << endl;
 					cout << endl;
 					cout << "   *BUZZ*  *BUZZ*  *BUZZ*  *BUZZ*  *BUZZ*    " << endl;
 					cout << endl;
